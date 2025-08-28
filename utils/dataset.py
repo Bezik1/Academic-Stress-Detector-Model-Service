@@ -25,8 +25,13 @@ train_loader = DataLoader(train_ds, batch_size=32, shuffle=True)
 val_loader = DataLoader(val_ds, batch_size=32)
 test_loader = DataLoader(test_ds, batch_size=32)
 
+input_size = X.shape[1]
+
 if __name__ == "__main__":
     print(X)
     print(X.shape)
     
     print(Y.shape)
+    
+    max_values = df.max()
+    print(max_values)
