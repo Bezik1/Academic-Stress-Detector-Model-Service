@@ -5,7 +5,8 @@ from sklearn.preprocessing import StandardScaler
 
 df = pd.read_csv("./data/StressLevelDataset.csv")
 
-X = df.drop("stress_level", axis=1).values
+X = df.drop(
+    ["stress_level", "anxiety_level", "self_esteem", "mental_health_history", "depression", "blood_pressure"], axis=1).values
 Y = df["stress_level"].values 
 
 scaler = StandardScaler()

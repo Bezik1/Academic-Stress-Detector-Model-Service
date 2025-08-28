@@ -5,7 +5,7 @@ import const.parameters as parameters
 from utils.dataset import input_size
 from utils.dataset import scaler
 
-x_manual = torch.tensor([[17,12,1,25,4,3,1,3,4,2,1,1,1,3,1,4,1,4,4,5]], dtype=torch.float32)
+x_manual = torch.tensor([[4,1,3,4,2,1,1,1,3,1,4,1,4,4,5]], dtype=torch.float32)
 
 y_manual = torch.tensor([1], dtype=torch.long)
 
