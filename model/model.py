@@ -12,12 +12,7 @@ class AcademicStressDetector(pl.LightningModule):
     physical and psychological features.
 
     Features:
-        anxiety_level                   (int, 0-21)
-        self_esteem                     (int, 0-30)
-        mental_health_history           (int, 0-1)
-        depression                      (int, 0-27)
         headache                        (int, 0-5)
-        blood_pressure                  (int, 0-3)
         sleep_quality                    (int, 0-5)
         breathing_problem                (int, 0-5)
         noise_level                      (int, 0-5)
