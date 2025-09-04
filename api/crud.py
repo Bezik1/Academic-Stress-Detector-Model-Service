@@ -27,4 +27,4 @@ def get_stress_level_prediction(data: StressInput) -> str:
         logits = model(x_manual_scaled)
         prediction_idx = torch.argmax(logits, dim=1).item()
     
-    return categories[prediction_idx]
+    return prediction_idx
