@@ -17,7 +17,7 @@ model.eval()
 
 categories = ["Eustress", "Distress", "No Stress"]
 
-def get_stress_level_prediction(data: StressInput) -> str:
+def get_stress_level_prediction(data: StressInput) -> int:
     x_manual = torch.tensor([list(data.dict().values())], dtype=torch.float32)
     
     x_manual_scaled = scaler.transform(x_manual)
