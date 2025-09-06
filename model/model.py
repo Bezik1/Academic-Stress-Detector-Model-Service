@@ -29,7 +29,7 @@ class AcademicStressDetector(pl.LightningModule):
         bullying                         (int, 0-5)
     
     Target:
-        stress_level                     (int, 0-2) [Enormous ustress, Distress, No Stress]
+        stress_level                     (int, 0-2) [Enormous stress, Distress, No Stress]
 
     Args:
         input_size (int): Number of input features.

@@ -36,7 +36,7 @@ inputDict = {
     "Have you experienced bullying?" : 0
 }
 
-categories = ["Eustress", "Distress", "No Stress"]
+categories = ["No Stress", "Distress", "Enormous stress"]
 
 for key in inputDict.keys():
     property = int(input(f"{key} [0-5]: "))
