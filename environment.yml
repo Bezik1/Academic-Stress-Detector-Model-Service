@@ -5,11 +5,16 @@ channels:
   - defaults
 dependencies:
   - python=3.9.23
-  - torchvision
-  - torchaudio
-  - pytorch
+  - pip
+  - numpy
+  - pandas
   - scikit-learn
   - matplotlib
+  - torch
+  - torchvision
+  - torchaudio
+  - pytorch-lightning
   - fastapi
   - uvicorn
+  - tensorboard
 prefix: /opt/anaconda3/envs/pytorch
