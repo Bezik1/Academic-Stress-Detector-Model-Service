@@ -5,7 +5,7 @@ from .crud import get_stress_level_prediction
 
 app = FastAPI()
 
-origins = ["http://localhost:8080"]
+origins = ["https://academic-stress-detector-user-service.onrender.com"]
 
 app.add_middleware(
     CORSMiddleware,
