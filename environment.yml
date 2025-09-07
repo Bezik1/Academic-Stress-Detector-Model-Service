@@ -17,4 +17,3 @@ dependencies:
   - fastapi
   - uvicorn
   - tensorboard
-prefix: /opt/anaconda3/envs/pytorch
