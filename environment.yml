@@ -10,11 +10,11 @@ dependencies:
   - pandas
   - scikit-learn
   - matplotlib
-  - torch
   - torchvision
   - torchaudio
   - pytorch-lightning
   - fastapi
   - uvicorn
   - tensorboard
+
 prefix: /opt/anaconda3/envs/pytorch
