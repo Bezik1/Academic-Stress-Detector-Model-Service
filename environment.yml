@@ -1,6 +1,5 @@
 name: pytorch
 channels:
-  - pytorch
   - conda-forge
   - defaults
 dependencies:
@@ -10,10 +9,11 @@ dependencies:
   - pandas
   - scikit-learn
   - matplotlib
-  - torch
-  - torchvision
-  - torchaudio
-  - pytorch-lightning
   - fastapi
   - uvicorn
   - tensorboard
+  - pip:
+      torch
+      torchvision
+      torchaudio
+      pytorch-lightning
